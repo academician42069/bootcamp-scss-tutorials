@@ -3,6 +3,7 @@
 @import "palette";
 @import "components/btn/index";
 
+
 * {
     // box-sizing: border-box;
     margin: 0;
@@ -73,6 +74,10 @@ body {
             border-radius: 20px;
         }
     }
+}
+
+#mixin {
+    @include size(36px, 27px, 100px, 27px, 102px);
 }
 
 .bg-color {
